@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="icon" href="css/crud.png" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    <title>Consulta de Pedidos - Home Food</title>
+    <style>
+        body {
+            background-color: #f8d7da;
+            color: #000000;
+        }
+        .header-title {
+            color: #dc3545;
+        }
+        .table-container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-top: 50px;
+        }
+        footer {
+            background-color: #dc3545;
+            color: #ffffff;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <header class="text-center py-3">
+        <h1 class="header-title">Consulta de Pedidos</h1>
+    </header>
+    <main class="container text-center table-container flex-grow-1">
+        <table id="tabelaPedidos" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Cliente</th>
+                    <th>Itens</th>
+                    <th>Quantidade</th>
+                    <th>Preço</th>
+                    <th>Status</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Tabela de Pedidos será preenchida aqui -->
+            </tbody>
+        </table>
+        <a href="cadastro-pedido.html" class="btn btn-custom btn-lg">Cadastrar Novo Pedido</a>
+    </main>
+    <footer class="text-center py-3">
+        Projeto Final Web - Home Food
+    </footer>
+    <script src="pedido.js" defer></script>
+</body>
+</html>
