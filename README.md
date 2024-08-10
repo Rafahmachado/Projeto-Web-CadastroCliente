@@ -19,3 +19,8 @@
 
 ### Interface Gráfica
 - Utiliza Bootstrap para estilizar o formulário, listas e botões .
+
+
+### Pré visualização
+
+![Captura de tela 2024-08-09 184052](https://github.com/user-attachments/assets/4b9565dc-922e-4f3b-a60c-49550817981c)
