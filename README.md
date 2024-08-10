@@ -1,20 +1,21 @@
 # Projeto-Web-CadastroCliente
 
 
+
 ## Funcionalidades
-Cadastro de Clientes:
 
-Cadastro de nome, email e telefone.
-Edição de Clientes:
+### Cadastro de Clientes
+- Cadastro de nome, e-mail e telefone.
 
-Permite editar os dados do cliente, como nome, email e telefone.
-Consulta de Clientes:
+### Edição de Clientes
+- Permite editar os dados do cliente, como nome, e-mail e telefone.
 
-Lista todos os clientes cadastrados.
-Permite visualizar os detalhes completos de um cliente específico.
-Armazenamento:
+### Consulta de Clientes
+- Lista todos os clientes cadastrados.
+- Permite visualizar os detalhes completos de um cliente específico.
 
-Todos os dados são armazenados no localStorage, permitindo que sejam persistidos entre sessões.
-Interface Gráfica:
+### Armazenamento
+- Todos os dados são armazenados no `localStorage`, permitindo que sejam persistidos entre sessões.
 
-Utiliza Bootstrap para estilizar o formulário, listas e botões, garantindo uma interface amigável e responsiva.
+### Interface Gráfica
+- Utiliza Bootstrap para estilizar o formulário, listas e botões .
