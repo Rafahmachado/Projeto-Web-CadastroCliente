@@ -1,0 +1,41 @@
+body {
+    background-color: #dc3545; /* Tom vermelho */
+    color: #ffffff; /* Texto branco */
+}
+.header-title {
+    color: #ffffff; /* Texto branco */
+}
+.main-content {
+    background-color: #ffffff;
+    color: #000000; /* Texto preto para contraste */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-top: 50px;
+}
+.btn-custom {
+    background-color: #dc3545; /* Tom vermelho */
+    color: #ffffff;
+}
+.btn-custom:hover {
+    background-color: #c82333; /* Tom vermelho escuro */
+}
+.food-icon {
+    font-size: 100px; /* Tamanho do ícone */
+    color: #dc3545; /* Cor do ícone */
+    margin-bottom: 20px;
+}
+
+/* footer {
+    background-color: #c82333; /* Tom vermelho escuro */
+    /* color: #ffffff;
+    padding: 10px;
+} */ 
+
+footer {
+            background-color: #dc3545; /* Tom vermelho */
+            color: white;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+        }
