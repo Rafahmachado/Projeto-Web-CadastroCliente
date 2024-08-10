@@ -23,4 +23,5 @@
 
 ### Pré visualização
 
-![Captura de tela 2024-08-09 184052](https://github.com/user-attachments/assets/4b9565dc-922e-4f3b-a60c-49550817981c)
+!![Captura de tela 2024-08-09 184052](https://github.com/user-attachments/assets/49eeee0d-95cc-4848-97c0-7c3ea5973327)
+
