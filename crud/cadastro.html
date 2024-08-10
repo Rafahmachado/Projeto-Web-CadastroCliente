@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="icon" href="css/crud.png" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script> <!-- Font Awesome -->
+    <title>Cadastro de Clientes - Home Food</title>
+    <style>
+        body {
+            background-color: #f8d7da; /* Tom vermelho claro para combinar com a página inicial */
+            color: #000000; /* Texto preto para boa legibilidade */
+        }
+        .header-title {
+            color: #dc3545; /* Tom vermelho escuro */
+        }
+        .form-container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-top: 50px;
+        }
+        .btn-custom {
+            background-color: #dc3545; /* Tom vermelho */
+            color: #ffffff;
+        }
+        .btn-custom:hover {
+            background-color: #c82333; /* Tom vermelho escuro */
+        }
+        footer {
+            background-color: #dc3545; /* Tom vermelho */
+            color: #ffffff;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <header class="text-center py-3">
+        <h1 class="header-title">Cadastro de Clientes</h1>
+    </header>
+    <main class="container text-center form-container flex-grow-1">
+        <form id="form" class="needs-validation" novalidate>
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-user"></i></span>
+                    </div>
+                    <input type="text" id="nome" class="form-control" placeholder="Nome do Cliente" required>
+                    <div class="invalid-feedback">Por favor, insira o nome do cliente.</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                    </div>
+                    <input type="email" id="email" class="form-control" placeholder="E-mail do Cliente" required>
+                    <div class="invalid-feedback">Por favor, insira um e-mail válido.</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-phone"></i></span>
+                    </div>
+                    <input type="text" id="celular" class="form-control" placeholder="Celular do Cliente" required>
+                    <div class="invalid-feedback">Por favor, insira o número de celular.</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-city"></i></span>
+                    </div>
+                    <input type="text" id="endereco" class="form-control" placeholder="Endereço do Cliente" required>
+                    <div class="invalid-feedback">Por favor, insira o endereço.</div>
+                </div>
+            </div>
+            <button id="salvar" class="btn btn-custom btn-lg" type="button">Salvar</button>
+            <a href="index.html" class="btn btn-secondary btn-lg ml-2">Voltar</a>
+        </form>
+        <div id="message" class="mt-3"></div>
+        <table id="tableClient" class="table table-striped mt-4">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Celular</th>
+                    <th>Endereço</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Tabela de Clientes será preenchida aqui -->
+            </tbody>
+        </table> 
+    </main>
+    <footer class="text-center py-3">
+        Projeto Final Web - Home Food
+    </footer>
+    <script src="main.js" defer></script>
+</body>
+</html>
